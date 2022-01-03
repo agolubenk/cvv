@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="ru" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andrei Golubenko · Experience</title>
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+<link href="cover.css" rel="stylesheet">
+    <style>
+.cbp_tmtimeline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative
+}
+.cbp_tmtimeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #eee;
+    left: 20%;
+    margin-left: -6px
+}
+.cbp_tmtimeline>li {
+    position: relative
+}
+.cbp_tmtimeline>li:first-child .cbp_tmtime span.large {
+    color: #444;
+    font-size: 17px !important;
+    font-weight: 700
+}
+.cbp_tmtimeline>li:first-child .cbp_tmicon {
+    background: #fff;
+    color: #666
+}
+.cbp_tmtimeline>li:nth-child(odd) .cbp_tmtime span:last-child {
+    color: #444;
+    font-size: 13px
+}
+.cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
+    background: #f0f1f3
+}
+.cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
+    border-right-color: #f0f1f3
+}
+.cbp_tmtimeline>li .empty span {
+    color: #777
+}
+.cbp_tmtimeline>li .cbp_tmtime {
+    display: block;
+    width: 23%;
+    padding-right: 70px;
+    position: absolute
+}
+.cbp_tmtimeline>li .cbp_tmtime span {
+    display: block;
+    text-align: right
+}
+.cbp_tmtimeline>li .cbp_tmtime span:first-child {
+    font-size: 15px;
+    color: #3d4c5a;
+    font-weight: 700
+}
+.cbp_tmtimeline>li .cbp_tmtime span:last-child {
+    font-size: 14px;
+    color: #444
+}
+.cbp_tmtimeline>li .cbp_tmlabel {
+    margin: 0 0 15px 25%;
+    background: #f0f1f3;
+    padding: 1.2em;
+    position: relative;
+    border-radius: 5px
+}
+.cbp_tmtimeline>li .cbp_tmlabel:after {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #f0f1f3;
+    border-width: 10px;
+    top: 10px
+}
+.cbp_tmtimeline>li .cbp_tmlabel blockquote {
+    font-size: 16px
+}
+.cbp_tmtimeline>li .cbp_tmlabel .map-checkin {
+    border: 5px solid rgba(235, 235, 235, 0.5);
+    -moz-box-shadow: 0px 0px 0px 1px #ebebeb;
+    -webkit-box-shadow: 0px 0px 0px 1px #ebebeb;
+    box-shadow: 0px 0px 0px 1px #ebebeb;
+    background: #fff !important
+}
+.cbp_tmtimeline>li .cbp_tmlabel h2 {
+    margin: 0px;
+    padding: 0 0 10px 0;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: normal
+}
+.cbp_tmtimeline>li .cbp_tmlabel h2 a {
+    font-size: 15px
+}
+.cbp_tmtimeline>li .cbp_tmlabel h2 a:hover {
+    text-decoration: none
+}
+.cbp_tmtimeline>li .cbp_tmlabel h2 span {
+    font-size: 15px
+}
+.cbp_tmtimeline>li .cbp_tmlabel p {
+    color: #444
+}
+.cbp_tmtimeline>li .cbp_tmicon {
+    width: 40px;
+    height: 40px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 1.4em;
+    line-height: 40px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    color: #fff;
+    background: #46a4da;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #f5f5f6;
+    text-align: center;
+    left: 20%;
+    top: 0;
+    margin: 0 0 0 -25px
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .cbp_tmtimeline>li .cbp_tmtime {
+        padding-right: 60px
+    }
+}
+@media screen and (max-width: 65.375em) {
+    .cbp_tmtimeline>li .cbp_tmtime span:last-child {
+        font-size: 12px
+    }
+}
+@media screen and (max-width: 47.2em) {
+    .cbp_tmtimeline:before {
+        display: none
+    }
+    .cbp_tmtimeline>li .cbp_tmtime {
+        width: 100%;
+        position: relative;
+        padding: 0 0 20px 0
+    }
+    .cbp_tmtimeline>li .cbp_tmtime span {
+        text-align: left
+    }
+    .cbp_tmtimeline>li .cbp_tmlabel {
+        margin: 0 0 30px 0;
+        padding: 1em;
+        font-weight: 400;
+        font-size: 95%
+    }
+    .cbp_tmtimeline>li .cbp_tmlabel:after {
+        right: auto;
+        left: 20px;
+        border-right-color: transparent;
+        border-bottom-color: #f5f5f6;
+        top: -20px
+    }
+    .cbp_tmtimeline>li .cbp_tmicon {
+        position: relative;
+        float: right;
+        left: auto;
+        margin: -64px 5px 0 0px
+    }
+    .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
+        border-right-color: transparent;
+        border-bottom-color: #f5f5f6
+    }
+}
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  </head>
+  <body class="text-center text-white bg-dark">
+    
+  <header class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column mb-auto" style="max-width: 42em;">
+    <div>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" aria-current="page" href="experience.html">Experience</a>
+        <a class="nav-link" href="skills.html">Skills</a>
+        <a class="nav-link disabled" style="opacity: 0.3" href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+      <div class="container pb-3 pt-1">
+<div class="container-fluid">
+    <div class="row">
+                <h1 class="pb-2">Опыт работы</h1>
+        <div class="col-md-10">
+            <ul class="cbp_tmtimeline">
+                <li>
+                    <time class="cbp_tmtime" datetime="2017-11-04T18:30"><span class="hidden text-primary">NOW</span> <span class="large text-warning" id="today"></span></time>
+                    <div class="cbp_tmicon bg-warning"><i class="bi bi-activity"></i></div>
+                    <div class="cbp_tmlabel empty"> <span class="text-dark">В активном поиске работы!</span> </div>
+                </li>
+                <li>
+                    <time class="cbp_tmtime" datetime="2017-11-04T03:45"><span class="text-primary">1M</span> <span class="large text-warning">12.2021 - 01.2022</span></time>
+                    <div class="cbp_tmicon bg-info"><i class="bi bi-briefcase-fill"></i></div>
+                    <div class="cbp_tmlabel">
+                        <h4><a href="javascript:void(0);" class="text-dark" style="text-decoration: none;">IT and Digital</a></h4>
+                       <h6 class="text-secondary pb-2" style="text-decoration: none;">Специалист по подбору персонала</h6>
+                        <p>Сорсинг IT специалистов с использованием различных каналов поиска, скрининг резюме, установление контакта с кандидатами, проведение интервью, оценка компетенций, навыков, мотивирующей составляющей. Адаптация принятых на работу специалистов. Работа с базой.<hr class="bg-dark">
+                        <span class="badge bg-primary"><i class="bi bi-hash fa-lg"></i>подбор персонала</span>&nbsp;<span class="badge bg-danger"><i class="bi bi-hash fa-lg"></i>поиск кандидатов</span>&nbsp;<span class="badge bg-success"><i class="bi bi-hash fa-lg"></i>скрининг</span>&nbsp;<span class="badge bg-warning"><i class="bi bi-hash fa-lg"></i>интервьюирование</span>&nbsp;<span class="badge bg-info"><i class="bi bi-hash fa-lg"></i>выявление компетенций</span></p>
+                    </div>
+                </li>
+                <li>
+                    <time class="cbp_tmtime" datetime="2017-11-04T03:45"><span class="text-primary">5M</span> <span class="large text-warning">09.2021 - 12.2021</span></time>
+                    <div class="cbp_tmicon bg-success"> <i class="bi bi-building"></i></div>
+                    <div class="cbp_tmlabel">
+                       <h4><a href="javascript:void(0);" class="text-dark" style="text-decoration: none;">Автодом групп</a></h4>
+                       <h6 class="text-secondary pb-2" style="text-decoration: none;">Специалист по подбору персонала</h6>
+                        <p>Скрининг резюме, поиск и подбор кандидатов, проведение телефонных интервью, подведение к очному собеседованию, работа с базой, массовый подбор.<hr class="bg-dark">
+                        <span class="badge bg-primary"><i class="bi bi-hash fa-lg"></i>подбор персонала</span>&nbsp;<span class="badge bg-danger"><i class="bi bi-hash fa-lg"></i>поиск кандидатов</span>&nbsp;<span class="badge bg-success"><i class="bi bi-hash fa-lg"></i>скрининг</span>&nbsp;<span class="badge bg-warning"><i class="bi bi-hash fa-lg"></i>интервьюирование</span>&nbsp;<span class="badge bg-info"><i class="bi bi-hash fa-lg"></i>коммуникабельность</span></p>
+                </li>
+            </ul>  
+        </div>
+    </div>
+</div>
+        </div>
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+
+  <footer class="mt-auto h5 text-white-50">
+    <span class="text-muted">@<strong>agolubenk</strong></span>
+      &nbsp;<span style="font-size: 1.25em">
+      &nbsp;<a href="tel:+375255485756"><i class="bi bi-telephone-fill text-white"></i></a>
+      &nbsp;<a href="mailto:a.golubenko@outlook.com"><i class="bi bi-envelope-fill text-white"></i></a>
+      &nbsp;<a href="https://t.me/agolubenk"><i class="bi bi-telegram text-white"></i></a>
+      &nbsp;<a href="https://www.linkedin.com/in/andrei-golubenko-31861b226/"><i class="bi bi-linkedin text-white"></i></a>
+      &nbsp;<a href="https://twitter.com/agolubenk"><i class="bi bi-twitter text-white"></i></a></span>
+  </footer>
+    
+
+</div>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+temp_date = new Date();
+day = temp_date.getDate();
+month = temp_date.getMonth() + 1;
+year = temp_date.getYear()-100;
+if (day < 10) {
+day = "0" + day;
+}
+if (month <10) {
+month = "0" + month;
+}
+document.getElementById('today').innerHTML = day + "." + month + "." + year;
+    </script>
+  </body>
+</html>
